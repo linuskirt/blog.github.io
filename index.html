@@ -1,7 +1,14 @@
 ---
 layout: page
-description: "Thinking will not overcome fear but action will."
----
+description: "
+<blockquote align=center>
+    等待不是抑制，是修行!<br>
+    VS<br>
+    不是每次等待都是修行!<br>
+    Insistence Creates Miracles.<br>
+    VS<br>
+    Insist On Creating Miracles."
+</blockquote>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
@@ -19,7 +26,8 @@ description: "Thinking will not overcome fear but action will."
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on
+        {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
