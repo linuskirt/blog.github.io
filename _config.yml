@@ -4,7 +4,7 @@ SEOTitle: Kirt的博客 | iKirt Blog
 header-img: img/post-bg-deskbook.jpg
 email: linuskirt@gmail.com
 description: "Every failure is leading towards success."
-keyword: "Linus, Linus' Blog, Researcher, Mechanical, Engineering, Matlab"
+keyword: "Linus, Blog, Researcher, Mechanical, Engineering, Matlab"
 url: "http://linuskirt.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/linuskirt/linuskirt.github.io.git" # you code repository
@@ -23,10 +23,7 @@ zhihu_username:     ke_zhifang
 github_username:    linuskirt
 facebook_username:  linuskirt
 jianshu_username:   u/80c37769b012
-twitter_username:   @linuskirt
-
-
-
+# twitter_username:   @linuskirt
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -35,14 +32,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
