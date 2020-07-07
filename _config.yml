@@ -2,8 +2,8 @@
 title: iKirt Blog
 SEOTitle: Kirt的博客 | iKirt Blog
 header-img: "img/TEBook.jpg"
-email: linuskirt@gmail.com
-description: "Every failure is leading towards success."
+email: <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=XzQ6ACU3Njk_MTgfLi5xPDAy" style="text-decoration:none;">Mail to Linus</a>
+description: "Insist On Creating Miracles. & Insistence Creates Miracles."
 keyword: "Linus, Blog, Researcher, Mechanical, Engineering, Matlab"
 url: "http://linuskirt.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/linuskirt/linuskirt.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "等待不是抑制，是修行！"
 sidebar-avatar: /img/aboutLE.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
@@ -45,8 +45,8 @@ kramdown:
 
 
 # # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: linuskirt
+Disqus（https://disqus.com/）
+disqus_username: linuskirt
 
 # Gitalk
 # gitalk:
@@ -62,17 +62,17 @@ kramdown:
 # 统计
 
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
-# <script>
-# var _hmt = _hmt || [];
-# (function() {
-#   var hm = document.createElement("script");
-#   hm.src = "https://hm.baidu.com/hm.js?fbd4ad3eca44852f60ca59b52dbfc92c";
-#   var s = document.getElementsByTagName("script")[0]; 
-#   s.parentNode.insertBefore(hm, s);
-# })();
-# </script>
+Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fbd4ad3eca44852f60ca59b52dbfc92c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 
 # Google Analytics
@@ -80,13 +80,9 @@ ga_track_id: 'G-8X72H84Q1M'            # Format: UA-xxxxxx-xx
 ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-
-
-
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
 
 
 # Progressive Web Apps
@@ -94,13 +90,9 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-
 # Friends
 friends: [
     {
-        title: "Linus",
-        href: "http://github.com/linuskirt"
-    },{
         title: "GitHub",
         href: "https://github.com"
     }
