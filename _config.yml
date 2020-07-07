@@ -45,8 +45,8 @@ kramdown:
 
 
 # # 评论系统
-Disqus（https://disqus.com/）
-disqus_username: linuskirt
+# Disqus（https://disqus.com/）
+# disqus_username: linuskirt
 
 # Gitalk
 # gitalk:
