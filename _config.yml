@@ -1,7 +1,7 @@
 # Site settings
 title: iKirt Blog
 SEOTitle: Kirt的博客 | iKirt Blog
-header-img: img/post-bg-deskbook.jpg
+header-img: "img/TEBook.jpg"
 email: linuskirt@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Linus, Blog, Researcher, Mechanical, Engineering, Matlab"
@@ -14,15 +14,13 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/aboutLE.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-
-
 # SNS settings
 RSS: false
 # weibo_username:     ke_zhifang
 zhihu_username:     ke_zhifang
 github_username:    linuskirt
 facebook_username:  linuskirt
-jianshu_username:   u/80c37769b012
+jianshu_username:   80c37769b012
 # twitter_username:   @linuskirt
 
 # Build settings
@@ -44,7 +42,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
 
 
 # # 评论系统
