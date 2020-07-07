@@ -62,17 +62,17 @@ kramdown:
 # 统计
 
 # Analytics settings
-Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?fbd4ad3eca44852f60ca59b52dbfc92c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# <script>
+# var _hmt = _hmt || [];
+# (function() {
+#   var hm = document.createElement("script");
+#   hm.src = "https://hm.baidu.com/hm.js?fbd4ad3eca44852f60ca59b52dbfc92c";
+#   var s = document.getElementsByTagName("script")[0]; 
+#   s.parentNode.insertBefore(hm, s);
+# })();
+# </script>
 
 
 # Google Analytics
