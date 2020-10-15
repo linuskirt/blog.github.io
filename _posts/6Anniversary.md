@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      6 Anniversary for LiE FEL！
+title:      6_Anniversary_for_LiE_FEL
 subtitle:   未来可期
 date:       2020-10-15
 author:     Kirts
