@@ -1,9 +1,10 @@
 ---
 layout:     post
-title:      6 Anniversary for LiE FEL!
+title:      纪念Kirts的6周年庆!
 subtitle:   未来可期
 date:       2020-10-15
 author:     Kirts
+header-img: img/TEBook.jpg
 catalog: true
 tags:
     - Blog
