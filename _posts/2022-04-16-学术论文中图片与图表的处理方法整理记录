@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      学术论文中图片与图表的处理方法整理记录
+subtitle:   $latex$中处理需要的pdf和eps图片
+date:       2022-04-16
+author:     Linus K.
+header-img: img/TEBook_wide.jpg
+catalog: true
+tags:
+    - Blog
+---
+
+> 正所谓前人栽树，后人乘凉。
+> 
+> 感谢[Huxpro](https://github.com/huxpro)提供的博客模板
+> 
+> [我的的博客](http://qiubaiying.top)
+
+# 前言
+本篇来自小木虫，做一下笔记方便查阅；
+
+# 撰写学术论文所需的图片及其处理方式
+`latex`中的图片格式主要就2种`pdf`和`eps`。如果要用`pdflatex`编译，那么自然选择`pdf`，如果用`latex`编译，自然用`eps`。
+本人论文中的图片来源主要是`Matlab`和`Visio`，所以这里主要讲如何从这两个软件中得到清晰的，无空白边缘的pdf和eps。
+##.visio完美另存为pdf
+visio2010及以上版本可用另存为pdf的功能，但是直接存的话，很难避免页面的空白边缘。网上的方法大部分都是用Adobe Acrobat裁剪。这个方法我没试过，但是感觉很麻烦。我的方法简单实用:D     
+先用visio画好图，然后“设计”--“大小”--"适应绘图"。visio就会自动调整画布来去除空白边缘，此时再另存外pdf即可。
+##.eps转pdf
+`matlab`里的图可以另存外`.eps`，但是`pdflatex`不认`eps`，怎么办？其实，直接用`latex`所带的工具转一下格式就行。
+我装的是texlive最新版，其实CTEX最新版等众多版本里面应该都自带eps转pdf的工具 `epstopdf`。
+如果texlive正常安装的话， 使用方法是：
+直接打开cmd，直接cd到eps文件所在目录(假设名为`a.eps`)，执行命令：`epstopdf a.eps`  就会在当前目录生成`a.pdf`。
+上述过程命令行记录如下图：
+      cd C:\Users\Linus\OneDrive - bit.edu.cn\100Works\110_Paper\119AreaCoDesign\EACFM_19942060\001Fig
+      epstopdf a.eps
+然后就可以看到同文件夹下生成的a.pdf，打开即可。      
+##.pdf转eps
+先说一句：既然已经有了pdf，还需要啥eps...不过既然有可能需要，继续记录：Visio并不可以直接另存为eps，所以需要先存为pdf，然后借助Adobe acrobat完成了。
+我用的是Adobe acrobat pro DC，下载安装后用它打开pdf，然后另存为ps,再用gsviewer（CTEX带的软件）打开ps，另存为eps即可。
+还有其他方法，再记录。
